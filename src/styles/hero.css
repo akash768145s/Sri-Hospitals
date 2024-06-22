@@ -1,0 +1,123 @@
+.bgimage {
+  position: relative;
+  background: url("../assets/hero-bg.jpg") center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.bgimage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #066aab;
+  opacity: 0.5;
+  z-index: 1;
+}
+.bgimage1 {
+  position: relative;
+  background: url("../assets/hero-bg.jpg") center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.bgimage1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.9;
+  z-index: 1;
+}
+.bgimage3 {
+  position: relative;
+  background: url("../assets/bg3.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.bgimage3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.9;
+  z-index: 1;
+}
+.bgimage4 {
+  position: relative;
+  background: url("../../public/hexbg.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.bgimage4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+.spherebg1 {
+  background: url("../assets/spherebg1.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+.spherebg2 {
+  background: url("../assets/spherebg2.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.bghex {
+  background: url("../../public/hexback_1.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+.bghex2 {
+  background: url("../../public/hexback_2.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+.bghex3 {
+  background: url("../../public/hexback_3.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+.bghex4 {
+  background: url("../../public/hexback_4.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+.bghex5 {
+  background: url("../../public/hexback_5.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+.bghex6 {
+  background: url("../../public/haxback_6.png") center center;
+  background-size: cover;
+  width: 100%;
+}
+
+

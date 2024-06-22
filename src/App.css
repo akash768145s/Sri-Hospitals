@@ -1,0 +1,26 @@
+.relative.hovered .ref {
+  background-color: #ccc; /* Change to gray when hovered */
+}
+
+.relative.hovered .ref {
+  transform: scale(1.2); /* Enlarge the container */
+}
+
+.phone-number {
+  position: absolute;
+  top: 0;
+  left: calc(-100% - 10px); /* Position the phone number to the left of the container */
+  background-color: white; /* Background color for the phone number container */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease;
+}
+
+.phone-number.visible {
+  opacity: 1; /* Show the phone number */
+}
+
+.phone-number.hidden {
+  opacity: 0; /* Hide the phone number */
+}
